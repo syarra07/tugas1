@@ -1,0 +1,197 @@
+:root{
+    /* color */
+    --primaryColor : #007FFF;
+    --secondedaryColor : #F9FAB9;
+
+    /* font */
+    --mainFont: 'Open Sans', sans-serif;
+    --headingFont: 'Merriweather', serif;
+}
+*{
+    box-sizing: border-box !important;
+}
+
+body{
+    font-family: var(--mainFont);
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 200px;
+}
+.subheading{
+    font-weight: 300;
+}
+
+.section-margin{
+    margin-top: 100px;
+}
+
+/* navbar */
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+}
+.navbar{
+    background-color: var(--primaryColor) !important;
+}
+.navbar-brand span{
+    color: var(--secondedaryColor);
+}
+.nav-link{
+    font-family: var(--headingFont);
+}
+.nav-link.active{
+    font-weight: 700;
+    color:var(--secondedaryColor) !important;
+}
+.icons-home i{
+    font-size: 1.8rem;
+    color: var(--secondedaryColor);
+}
+
+/* home */
+.home{
+    background-color: var(--primaryColor);
+    height: 650px;
+    padding-top: 10rem;
+}
+.home .heading{
+    color: var(--secondedaryColor);
+}
+.btn-home .btn-reservasi{
+    background-color: var(--secondedaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+.btn-home .btn-sekarang{
+    border: 2px solid var(--secondedaryColor);
+    color: var(--secondedaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+
+.card-service{
+    background-color: var(--primaryColor);
+    color: #FFF;
+}
+
+.info-box {
+    background-color: #e6f0ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .bil {
+    width: 250px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+}
+
+.bila {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+}
+
+.bi {
+    width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+header {
+    background-color: var(--primaryColor) ;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.aaa {
+    display: flex;
+    align-items: center;
+    background-color: #f8fcd1;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+  }
+
+  .text {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .image {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+
+
+.site-footer {
+    background-color: var(--primaryColor);
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+    color: #003366;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #0073e6;
+  }
+  
+@Mmedia screen and (min-width: 768px) {
+    .home{
+        padding-top: 14rem;
+    }
+    .home .heading{
+        font-size: 36px;
+    }
+    footer .row {
+        text-align: center;
+      }
+}
